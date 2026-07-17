@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets / local configuration
+.env
+.env.*
+config.py
+credentials.*
+secrets.*
+
+# MT5 / research exports that may contain private account data
+raw_data/
+private_data/
+mt5_reports/
+logs/
+*.log
+
+# Large local datasets
+*.parquet
+*.feather
+
+# Temporary files
+*.tmp
+*.bak
+~*
